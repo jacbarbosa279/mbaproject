@@ -1,1 +1,6 @@
+# Guardar o mapa na pasta output
+mapa.save("output/mapa_crimes.html")
 
+# Guardar o gráfico na pasta output
+with open("output/grafico_sentimentos.html", "w", encoding="utf-8") as f:
+    f.write(html_content)
