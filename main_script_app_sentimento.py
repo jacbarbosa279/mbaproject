@@ -38,8 +38,11 @@ def validar_mensagem(mensagem):
 
 
 def main():  # Função principal para organizar o código
+    # Caminho para o arquivo Excel
+    caminho_arquivo = r"data\raw\VeiculosSubtraidos_2024.xlsx"
+
     # Carregue os dados do arquivo Excel
-    df_roubos = pd.read_excel('VeiculosSubtraidos_2024.xlsx',
+    df_roubos = pd.read_excel(caminho_arquivo,
                             sheet_name='AMOSTRAGEM')
 
     # Crie o mapa folium ANTES do loop
