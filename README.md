@@ -66,43 +66,43 @@ The following diagram illustrates the data flow and components of the analysis a
 
 ```mermaid
 flowchart TD
-    subgraph Input ["Entrada de Dados"]
+    subgraph Input ["Data Input"]
         Excel["data/raw/VeiculosSubtraidos_2024.xlsx"]
     end
 
-    subgraph Config ["Autenticação & Provedores"]
+    subgraph Config ["Authentication & Providers"]
         ENV{"OPENROUTER_API_KEY /<br/>OPENAI_API_KEY"}
-        OpenRouter["API OpenRouter<br/>(LLM: Gemma 4 / Llama)"]
-        Fallback["Gerador Local<br/>(Fallback offline)"]
+        OpenRouter["OpenRouter API<br/>(LLM: Gemma 4 / Llama)"]
+        Fallback["Local Generator<br/>(Offline Fallback)"]
     end
 
-    subgraph Processing ["Processamento & Análise"]
-        Iterate["Iteração Linha a Linha<br/>(Pandas DataFrame)"]
-        Geocoding["Extração de Coordenadas<br/>(Lat/Long, Bairro, Data/Hora)"]
+    subgraph Processing ["Processing & Analysis"]
+        Iterate["Line-by-Line Iteration<br/>(Pandas DataFrame)"]
+        Geocoding["Coordinates Extraction<br/>(Lat/Long, Neighborhood, Date/Time)"]
         
-        GenPostRoubo["Geração de Alerta de Roubo"]
-        NLTK1["NLTK VADER<br/>(Análise de Sentimento #1)"]
+        GenPostRoubo["Robbery Alert Generation"]
+        NLTK1["NLTK VADER<br/>(Sentiment Analysis #1)"]
         
-        PromptLogic{"Score Compound < 0?"}
-        PromptPositivo["Prompt: Elogio/Policiamento"]
-        PromptNeutro["Prompt: Presença Policial"]
+        PromptLogic{"Compound Score < 0?"}
+        PromptPositivo["Prompt: Praise/Policing"]
+        PromptNeutro["Prompt: Police Presence"]
         
-        GenPostPolicia["Geração de Mensagem Policial"]
-        NLTK2["NLTK VADER<br/>(Análise de Sentimento #2)"]
+        GenPostPolicia["Police Message Generation"]
+        NLTK2["NLTK VADER<br/>(Sentiment Analysis #2)"]
     end
 
-    subgraph Output ["Artefatos Gerados"]
-        TXT["data/processed/mensagens_geradas.txt<br/>(Posts + Sentimentos)"]
+    subgraph Output ["Generated Artifacts"]
+        TXT["data/processed/mensagens_geradas.txt<br/>(Posts + Sentiments)"]
         Mapa["output/mapa_crimes.html<br/>(Folium Map / Markers)"]
         Grafico["output/grafico_sentimentos.html<br/>(Matplotlib / Base64 HTML)"]
     end
 
-    %% Relações de Entrada
+    %% Input Relations
     Excel --> Iterate
 
-    %% Relações de Configuração/LLM
-    ENV -- Presente --> OpenRouter
-    ENV -- Ausente / Erro --> Fallback
+    %% Config/LLM Relations
+    ENV -- Present --> OpenRouter
+    ENV -- Missing / Error --> Fallback
     
     OpenRouter --> GenPostRoubo
     Fallback --> GenPostRoubo
@@ -110,7 +110,7 @@ flowchart TD
     OpenRouter --> GenPostPolicia
     Fallback --> GenPostPolicia
 
-    %% Fluxo Principal
+    %% Main Flow
     Iterate --> Geocoding
     Geocoding --> Mapa
     Iterate --> GenPostRoubo
@@ -118,8 +118,8 @@ flowchart TD
     GenPostRoubo --> NLTK1
     NLTK1 --> PromptLogic
     
-    PromptLogic -- Sim --> PromptPositivo
-    PromptLogic -- Não --> PromptNeutro
+    PromptLogic -- Yes --> PromptPositivo
+    PromptLogic -- No --> PromptNeutro
     
     PromptPositivo --> GenPostPolicia
     PromptNeutro --> GenPostPolicia
