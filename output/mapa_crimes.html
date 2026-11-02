@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a5bd0c5d315dcaea0668cf9a6701fd11 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a5bd0c5d315dcaea0668cf9a6701fd11" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a5bd0c5d315dcaea0668cf9a6701fd11 = L.map(
+                "map_a5bd0c5d315dcaea0668cf9a6701fd11",
+                {
+                    center: [-23.55052, -46.633308],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7c5d86143b8ddbe7e0e60b9a523c8378 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7c5d86143b8ddbe7e0e60b9a523c8378.addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var marker_685e36a20008d5c7d1477aeeddbb2889 = L.marker(
+                [-23.5249101859999, -46.42886701],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_89e002d1872e8fa57af72dfd8e881a7d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e4ac5966c6788992a934d280f150fa57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d42795507c51e3ed50bcbb823741055 = $(`<div id="html_1d42795507c51e3ed50bcbb823741055" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> LAJEADO<br><b>Data:</b> 05/01/2024<br><b>Hora:</b> 00:05:00</div>`)[0];
+                popup_e4ac5966c6788992a934d280f150fa57.setContent(html_1d42795507c51e3ed50bcbb823741055);
+            
+        
+
+        marker_685e36a20008d5c7d1477aeeddbb2889.bindPopup(popup_e4ac5966c6788992a934d280f150fa57)
+        ;
+
+        
+    
+    
+            marker_685e36a20008d5c7d1477aeeddbb2889.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_685e36a20008d5c7d1477aeeddbb2889.setIcon(icon_89e002d1872e8fa57af72dfd8e881a7d);
+            
+    
+            var marker_c565a5df6ca3ef4740dec2d929b82301 = L.marker(
+                [-23.5249101859999, -46.42886701],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_cb8b1f48ef4a91176a4f233ce60db581 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a5625795f414d03e6745f9d0c401d3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73b19bcaf2239eb03c79b566b71fcc66 = $(`<div id="html_73b19bcaf2239eb03c79b566b71fcc66" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> LAJEADO<br><b>Data:</b> 05/01/2024<br><b>Hora:</b> 00:05:00</div>`)[0];
+                popup_7a5625795f414d03e6745f9d0c401d3a.setContent(html_73b19bcaf2239eb03c79b566b71fcc66);
+            
+        
+
+        marker_c565a5df6ca3ef4740dec2d929b82301.bindPopup(popup_7a5625795f414d03e6745f9d0c401d3a)
+        ;
+
+        
+    
+    
+            marker_c565a5df6ca3ef4740dec2d929b82301.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c565a5df6ca3ef4740dec2d929b82301.setIcon(icon_cb8b1f48ef4a91176a4f233ce60db581);
+            
+    
+            var marker_15585f1c257415aa87dd420018a16d4b = L.marker(
+                [-23.5658815, -46.5094163],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_5a0f86e9ec676af1c7a09adcab066c73 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ebc71a7ad0e35a15fe38a7e83e041b83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e3026b08f5cddbde446ce6e5a235da2 = $(`<div id="html_5e3026b08f5cddbde446ce6e5a235da2" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> JARDIM ARICANDUVA<br><b>Data:</b> 05/01/2024<br><b>Hora:</b> 23:00:00</div>`)[0];
+                popup_ebc71a7ad0e35a15fe38a7e83e041b83.setContent(html_5e3026b08f5cddbde446ce6e5a235da2);
+            
+        
+
+        marker_15585f1c257415aa87dd420018a16d4b.bindPopup(popup_ebc71a7ad0e35a15fe38a7e83e041b83)
+        ;
+
+        
+    
+    
+            marker_15585f1c257415aa87dd420018a16d4b.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_15585f1c257415aa87dd420018a16d4b.setIcon(icon_5a0f86e9ec676af1c7a09adcab066c73);
+            
+    
+            var marker_1b037f92c60b5b3b88b4d0fd16d12c45 = L.marker(
+                [-23.5658815, -46.5094163],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_fb3768ea415c8090b96ed57ffabbc1d0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cca3a62541e934a4128e0fcdb889fd28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8edcb3621de0fd94fb509c83c052c21 = $(`<div id="html_d8edcb3621de0fd94fb509c83c052c21" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> JARDIM ARICANDUVA<br><b>Data:</b> 05/01/2024<br><b>Hora:</b> 23:00:00</div>`)[0];
+                popup_cca3a62541e934a4128e0fcdb889fd28.setContent(html_d8edcb3621de0fd94fb509c83c052c21);
+            
+        
+
+        marker_1b037f92c60b5b3b88b4d0fd16d12c45.bindPopup(popup_cca3a62541e934a4128e0fcdb889fd28)
+        ;
+
+        
+    
+    
+            marker_1b037f92c60b5b3b88b4d0fd16d12c45.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1b037f92c60b5b3b88b4d0fd16d12c45.setIcon(icon_fb3768ea415c8090b96ed57ffabbc1d0);
+            
+    
+            var marker_16575101bcb65d121c475ed08b6419a0 = L.marker(
+                [-23.487382295, -46.6526170619999],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_5be909bfc1d3be558c9a3f8fb4008286 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_615a2643ac4459b7715bdc61cafdca10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98c0f8ce9095bc100a3e3f44f9851816 = $(`<div id="html_98c0f8ce9095bc100a3e3f44f9851816" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> CASA VERDE<br><b>Data:</b> 05/01/2024<br><b>Hora:</b> 22:50:00</div>`)[0];
+                popup_615a2643ac4459b7715bdc61cafdca10.setContent(html_98c0f8ce9095bc100a3e3f44f9851816);
+            
+        
+
+        marker_16575101bcb65d121c475ed08b6419a0.bindPopup(popup_615a2643ac4459b7715bdc61cafdca10)
+        ;
+
+        
+    
+    
+            marker_16575101bcb65d121c475ed08b6419a0.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_16575101bcb65d121c475ed08b6419a0.setIcon(icon_5be909bfc1d3be558c9a3f8fb4008286);
+            
+    
+            var marker_d0fb9b1f654b1f1332de4fbe6b98e565 = L.marker(
+                [-23.487382295, -46.6526170619999],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_15084874e0a807384e19e2ce2d0b19c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd1c5dbae7bcf4977b30b9a841bee534 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebceddc59f2f4e37bee8e94469827c77 = $(`<div id="html_ebceddc59f2f4e37bee8e94469827c77" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> CASA VERDE<br><b>Data:</b> 05/01/2024<br><b>Hora:</b> 22:50:00</div>`)[0];
+                popup_bd1c5dbae7bcf4977b30b9a841bee534.setContent(html_ebceddc59f2f4e37bee8e94469827c77);
+            
+        
+
+        marker_d0fb9b1f654b1f1332de4fbe6b98e565.bindPopup(popup_bd1c5dbae7bcf4977b30b9a841bee534)
+        ;
+
+        
+    
+    
+            marker_d0fb9b1f654b1f1332de4fbe6b98e565.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d0fb9b1f654b1f1332de4fbe6b98e565.setIcon(icon_15084874e0a807384e19e2ce2d0b19c4);
+            
+    
+            var marker_78115a8f46a37358291bc5c7a2a65bc7 = L.marker(
+                [-23.674458557, -46.64991084],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_b5f2a9459c285eea3d06a6152bf9ce5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78c6ef9c18e7ff7b47a1ad2858b12724 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbec3afcbec742eb3e91e54b1fc3eb5f = $(`<div id="html_bbec3afcbec742eb3e91e54b1fc3eb5f" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> CIDADE ADEMAR<br><b>Data:</b> 05/01/2024<br><b>Hora:</b> 19:55:00</div>`)[0];
+                popup_78c6ef9c18e7ff7b47a1ad2858b12724.setContent(html_bbec3afcbec742eb3e91e54b1fc3eb5f);
+            
+        
+
+        marker_78115a8f46a37358291bc5c7a2a65bc7.bindPopup(popup_78c6ef9c18e7ff7b47a1ad2858b12724)
+        ;
+
+        
+    
+    
+            marker_78115a8f46a37358291bc5c7a2a65bc7.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_78115a8f46a37358291bc5c7a2a65bc7.setIcon(icon_b5f2a9459c285eea3d06a6152bf9ce5e);
+            
+    
+            var marker_e8814944307eacb7366b59d421c14472 = L.marker(
+                [-23.674458557, -46.64991084],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_5665312cc63f11ca91a9b1ce5982c8fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e9ca65b40918f724b4846dd9b824ebe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7162a451f55a609bacd5be9376484c7d = $(`<div id="html_7162a451f55a609bacd5be9376484c7d" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> CIDADE ADEMAR<br><b>Data:</b> 05/01/2024<br><b>Hora:</b> 19:55:00</div>`)[0];
+                popup_8e9ca65b40918f724b4846dd9b824ebe.setContent(html_7162a451f55a609bacd5be9376484c7d);
+            
+        
+
+        marker_e8814944307eacb7366b59d421c14472.bindPopup(popup_8e9ca65b40918f724b4846dd9b824ebe)
+        ;
+
+        
+    
+    
+            marker_e8814944307eacb7366b59d421c14472.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e8814944307eacb7366b59d421c14472.setIcon(icon_5665312cc63f11ca91a9b1ce5982c8fe);
+            
+    
+            var marker_0a6cdc8a98857ba1f729d52e25306a11 = L.marker(
+                [-23.542756588, -46.4304577899999],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_023a3a489047fb520dd944561e63cb94 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d62a388a90d4dbe117c38db11e96fed7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a8786cb7956486b320c6c9e399ad6eb = $(`<div id="html_4a8786cb7956486b320c6c9e399ad6eb" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> JOSE BONIFACIO<br><b>Data:</b> 05/01/2024<br><b>Hora:</b> 22:00:00</div>`)[0];
+                popup_d62a388a90d4dbe117c38db11e96fed7.setContent(html_4a8786cb7956486b320c6c9e399ad6eb);
+            
+        
+
+        marker_0a6cdc8a98857ba1f729d52e25306a11.bindPopup(popup_d62a388a90d4dbe117c38db11e96fed7)
+        ;
+
+        
+    
+    
+            marker_0a6cdc8a98857ba1f729d52e25306a11.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0a6cdc8a98857ba1f729d52e25306a11.setIcon(icon_023a3a489047fb520dd944561e63cb94);
+            
+    
+            var marker_8abe0d42716adfe6a39c06ff6ec2903a = L.marker(
+                [-23.542756588, -46.4304577899999],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_b48f994cb955c42fae29e9a27cfc7e08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a12f5f55707df0769e656d6f69d940de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4388d963387694e71f269d408766c09a = $(`<div id="html_4388d963387694e71f269d408766c09a" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> JOSE BONIFACIO<br><b>Data:</b> 05/01/2024<br><b>Hora:</b> 22:00:00</div>`)[0];
+                popup_a12f5f55707df0769e656d6f69d940de.setContent(html_4388d963387694e71f269d408766c09a);
+            
+        
+
+        marker_8abe0d42716adfe6a39c06ff6ec2903a.bindPopup(popup_a12f5f55707df0769e656d6f69d940de)
+        ;
+
+        
+    
+    
+            marker_8abe0d42716adfe6a39c06ff6ec2903a.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8abe0d42716adfe6a39c06ff6ec2903a.setIcon(icon_b48f994cb955c42fae29e9a27cfc7e08);
+            
+    
+            var marker_8a3804f48485c3874a7d80fae97a28b0 = L.marker(
+                [-23.494273232, -46.7049165729999],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_c78b9e652772a897a39df1e31f540632 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4de91e3330b345d471d85a673891cc6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_237e625d291ee5f2eb635f86250c8f62 = $(`<div id="html_237e625d291ee5f2eb635f86250c8f62" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> FREGUESIA DO O<br><b>Data:</b> 04/01/2024<br><b>Hora:</b> 07:20:00</div>`)[0];
+                popup_4de91e3330b345d471d85a673891cc6c.setContent(html_237e625d291ee5f2eb635f86250c8f62);
+            
+        
+
+        marker_8a3804f48485c3874a7d80fae97a28b0.bindPopup(popup_4de91e3330b345d471d85a673891cc6c)
+        ;
+
+        
+    
+    
+            marker_8a3804f48485c3874a7d80fae97a28b0.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8a3804f48485c3874a7d80fae97a28b0.setIcon(icon_c78b9e652772a897a39df1e31f540632);
+            
+    
+            var marker_322c9a16e9b3ebf91352047317bfb377 = L.marker(
+                [-23.494273232, -46.7049165729999],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_6f23c61ba61a7a8c1461c0b1341e7dae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_567c5937c2848f7268e46f5275120fcd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad23b15c180ba2680a2cab429f3cb615 = $(`<div id="html_ad23b15c180ba2680a2cab429f3cb615" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> FREGUESIA DO O<br><b>Data:</b> 04/01/2024<br><b>Hora:</b> 07:20:00</div>`)[0];
+                popup_567c5937c2848f7268e46f5275120fcd.setContent(html_ad23b15c180ba2680a2cab429f3cb615);
+            
+        
+
+        marker_322c9a16e9b3ebf91352047317bfb377.bindPopup(popup_567c5937c2848f7268e46f5275120fcd)
+        ;
+
+        
+    
+    
+            marker_322c9a16e9b3ebf91352047317bfb377.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_322c9a16e9b3ebf91352047317bfb377.setIcon(icon_6f23c61ba61a7a8c1461c0b1341e7dae);
+            
+    
+            var marker_07c1deb91517ca3ddcca3b721f33d509 = L.marker(
+                [-23.6763183, -46.6700871],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_e694d83807bd90c1b3c5659673e72f81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1623a1a04948621f3e6e9737abf71a3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5889ac5c482820157e0ebc3762c380ce = $(`<div id="html_5889ac5c482820157e0ebc3762c380ce" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> VILA DO CASTELO<br><b>Data:</b> 04/01/2024<br><b>Hora:</b> 15:00:00</div>`)[0];
+                popup_1623a1a04948621f3e6e9737abf71a3d.setContent(html_5889ac5c482820157e0ebc3762c380ce);
+            
+        
+
+        marker_07c1deb91517ca3ddcca3b721f33d509.bindPopup(popup_1623a1a04948621f3e6e9737abf71a3d)
+        ;
+
+        
+    
+    
+            marker_07c1deb91517ca3ddcca3b721f33d509.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_07c1deb91517ca3ddcca3b721f33d509.setIcon(icon_e694d83807bd90c1b3c5659673e72f81);
+            
+    
+            var marker_306f8fd496235f3b25dfcd500c4d552e = L.marker(
+                [-23.6763183, -46.6700871],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_2c87669a522b97da2bee0a3c64647d50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57395bbd0ad0e32e8a60b27df712f1ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db0d91dd743eff94d24e2453a5667e12 = $(`<div id="html_db0d91dd743eff94d24e2453a5667e12" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> VILA DO CASTELO<br><b>Data:</b> 04/01/2024<br><b>Hora:</b> 15:00:00</div>`)[0];
+                popup_57395bbd0ad0e32e8a60b27df712f1ca.setContent(html_db0d91dd743eff94d24e2453a5667e12);
+            
+        
+
+        marker_306f8fd496235f3b25dfcd500c4d552e.bindPopup(popup_57395bbd0ad0e32e8a60b27df712f1ca)
+        ;
+
+        
+    
+    
+            marker_306f8fd496235f3b25dfcd500c4d552e.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_306f8fd496235f3b25dfcd500c4d552e.setIcon(icon_2c87669a522b97da2bee0a3c64647d50);
+            
+    
+            var marker_9b9d7994bea3b8ba0c62b8c7b377d4cd = L.marker(
+                [-23.588252989, -46.548970568],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_b2565c8a6bef1ffc9e7bd14736693923 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0888834fa580d9d49f4c782753f34eb5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac2dc2b58cf9505abfecb522c4873719 = $(`<div id="html_ac2dc2b58cf9505abfecb522c4873719" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> SAO LUCAS<br><b>Data:</b> 04/01/2024<br><b>Hora:</b> 21:00:00</div>`)[0];
+                popup_0888834fa580d9d49f4c782753f34eb5.setContent(html_ac2dc2b58cf9505abfecb522c4873719);
+            
+        
+
+        marker_9b9d7994bea3b8ba0c62b8c7b377d4cd.bindPopup(popup_0888834fa580d9d49f4c782753f34eb5)
+        ;
+
+        
+    
+    
+            marker_9b9d7994bea3b8ba0c62b8c7b377d4cd.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b9d7994bea3b8ba0c62b8c7b377d4cd.setIcon(icon_b2565c8a6bef1ffc9e7bd14736693923);
+            
+    
+            var marker_09027e7f263f89ba660301e1867fd80a = L.marker(
+                [-23.588252989, -46.548970568],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_9c3043be22b6d3421445fda96612ae96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8c65d517102293345b5fb6f394b4bcd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1f66e7386b98ed9895543d14c5a96b4 = $(`<div id="html_d1f66e7386b98ed9895543d14c5a96b4" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> SAO LUCAS<br><b>Data:</b> 04/01/2024<br><b>Hora:</b> 21:00:00</div>`)[0];
+                popup_d8c65d517102293345b5fb6f394b4bcd.setContent(html_d1f66e7386b98ed9895543d14c5a96b4);
+            
+        
+
+        marker_09027e7f263f89ba660301e1867fd80a.bindPopup(popup_d8c65d517102293345b5fb6f394b4bcd)
+        ;
+
+        
+    
+    
+            marker_09027e7f263f89ba660301e1867fd80a.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_09027e7f263f89ba660301e1867fd80a.setIcon(icon_9c3043be22b6d3421445fda96612ae96);
+            
+    
+            var marker_f0ade4e5cdb3351fa9e4c9fd2c2602c7 = L.marker(
+                [-23.5876361969999, -46.59913999],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_01e8765340949ace3e27413689049943 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36a1c6eeed9e25b3f06b89e86833257c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a5bb73bff60c3989c25b197e0c19f55 = $(`<div id="html_3a5bb73bff60c3989c25b197e0c19f55" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> IPIRANGA<br><b>Data:</b> 04/01/2024<br><b>Hora:</b> 20:20:28</div>`)[0];
+                popup_36a1c6eeed9e25b3f06b89e86833257c.setContent(html_3a5bb73bff60c3989c25b197e0c19f55);
+            
+        
+
+        marker_f0ade4e5cdb3351fa9e4c9fd2c2602c7.bindPopup(popup_36a1c6eeed9e25b3f06b89e86833257c)
+        ;
+
+        
+    
+    
+            marker_f0ade4e5cdb3351fa9e4c9fd2c2602c7.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f0ade4e5cdb3351fa9e4c9fd2c2602c7.setIcon(icon_01e8765340949ace3e27413689049943);
+            
+    
+            var marker_fbbf8a4ad970ef99e2119133a7ae92bd = L.marker(
+                [-23.5876361969999, -46.59913999],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_ff2892af2900f228e57721c03af52d0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfd080a0b1e4ff0aa8fab3aa994b3cee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5d2d70dfe282815601bb433e0f14fff2 = $(`<div id="html_5d2d70dfe282815601bb433e0f14fff2" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> IPIRANGA<br><b>Data:</b> 04/01/2024<br><b>Hora:</b> 20:20:28</div>`)[0];
+                popup_bfd080a0b1e4ff0aa8fab3aa994b3cee.setContent(html_5d2d70dfe282815601bb433e0f14fff2);
+            
+        
+
+        marker_fbbf8a4ad970ef99e2119133a7ae92bd.bindPopup(popup_bfd080a0b1e4ff0aa8fab3aa994b3cee)
+        ;
+
+        
+    
+    
+            marker_fbbf8a4ad970ef99e2119133a7ae92bd.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fbbf8a4ad970ef99e2119133a7ae92bd.setIcon(icon_ff2892af2900f228e57721c03af52d0d);
+            
+    
+            var marker_5c253e671550532fc2de2243c3abda9e = L.marker(
+                [-23.603214489, -46.4337465369999],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_dbdbe0d4f4fe85c9aa3c6fbecf5ecbc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b48e00cd710cf8c6f086fa696d75970 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5101f19e0f74474936919c6c137a10d0 = $(`<div id="html_5101f19e0f74474936919c6c137a10d0" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> IGUATEMI<br><b>Data:</b> 04/01/2024<br><b>Hora:</b> 22:30:00</div>`)[0];
+                popup_8b48e00cd710cf8c6f086fa696d75970.setContent(html_5101f19e0f74474936919c6c137a10d0);
+            
+        
+
+        marker_5c253e671550532fc2de2243c3abda9e.bindPopup(popup_8b48e00cd710cf8c6f086fa696d75970)
+        ;
+
+        
+    
+    
+            marker_5c253e671550532fc2de2243c3abda9e.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5c253e671550532fc2de2243c3abda9e.setIcon(icon_dbdbe0d4f4fe85c9aa3c6fbecf5ecbc1);
+            
+    
+            var marker_5bceb60605d8e6d8d48ad0a31a906c13 = L.marker(
+                [-23.603214489, -46.4337465369999],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_ccef64686781b11d2d2fc9121febe165 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6614803ff94bece665bff756516c011a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_414739dae95f705a7b763764c33f761b = $(`<div id="html_414739dae95f705a7b763764c33f761b" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> IGUATEMI<br><b>Data:</b> 04/01/2024<br><b>Hora:</b> 22:30:00</div>`)[0];
+                popup_6614803ff94bece665bff756516c011a.setContent(html_414739dae95f705a7b763764c33f761b);
+            
+        
+
+        marker_5bceb60605d8e6d8d48ad0a31a906c13.bindPopup(popup_6614803ff94bece665bff756516c011a)
+        ;
+
+        
+    
+    
+            marker_5bceb60605d8e6d8d48ad0a31a906c13.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5bceb60605d8e6d8d48ad0a31a906c13.setIcon(icon_ccef64686781b11d2d2fc9121febe165);
+            
+    
+            var marker_e41dd48026349e38c7da3efaa818cc7a = L.marker(
+                [-23.5148568, -46.4571918],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_5c22a829cf75f0513d6849943b039462 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cad5e6fba760f030721da82bfef3cb2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d219a5f89b8668a159a66a19c904e529 = $(`<div id="html_d219a5f89b8668a159a66a19c904e529" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> PARQUE GUARANI<br><b>Data:</b> 04/01/2024<br><b>Hora:</b> 22:14:34</div>`)[0];
+                popup_cad5e6fba760f030721da82bfef3cb2f.setContent(html_d219a5f89b8668a159a66a19c904e529);
+            
+        
+
+        marker_e41dd48026349e38c7da3efaa818cc7a.bindPopup(popup_cad5e6fba760f030721da82bfef3cb2f)
+        ;
+
+        
+    
+    
+            marker_e41dd48026349e38c7da3efaa818cc7a.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e41dd48026349e38c7da3efaa818cc7a.setIcon(icon_5c22a829cf75f0513d6849943b039462);
+            
+    
+            var marker_2b9619c3bcbfad1f4c5b437efad039a8 = L.marker(
+                [-23.6541898579999, -46.713215238],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_207c5b3e8de574a624daa768778b29fe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae50407eae5a7eea06000befe4058ef5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba610ef28a7f4e641d40ad9ec1b4ddca = $(`<div id="html_ba610ef28a7f4e641d40ad9ec1b4ddca" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> SANTO AMARO<br><b>Data:</b> 03/01/2024<br><b>Hora:</b> 11:11:00</div>`)[0];
+                popup_ae50407eae5a7eea06000befe4058ef5.setContent(html_ba610ef28a7f4e641d40ad9ec1b4ddca);
+            
+        
+
+        marker_2b9619c3bcbfad1f4c5b437efad039a8.bindPopup(popup_ae50407eae5a7eea06000befe4058ef5)
+        ;
+
+        
+    
+    
+            marker_2b9619c3bcbfad1f4c5b437efad039a8.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2b9619c3bcbfad1f4c5b437efad039a8.setIcon(icon_207c5b3e8de574a624daa768778b29fe);
+            
+    
+            var marker_a1723810ad4ef4bd23be59ae319afd95 = L.marker(
+                [-23.6541898579999, -46.713215238],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_3e832db6686986d6e079f992905fa869 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e404b6d93d0270be2fa5a10eef92c1c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_157c83f38c6f4fa780703dd5e446e069 = $(`<div id="html_157c83f38c6f4fa780703dd5e446e069" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> SANTO AMARO<br><b>Data:</b> 03/01/2024<br><b>Hora:</b> 11:11:00</div>`)[0];
+                popup_e404b6d93d0270be2fa5a10eef92c1c6.setContent(html_157c83f38c6f4fa780703dd5e446e069);
+            
+        
+
+        marker_a1723810ad4ef4bd23be59ae319afd95.bindPopup(popup_e404b6d93d0270be2fa5a10eef92c1c6)
+        ;
+
+        
+    
+    
+            marker_a1723810ad4ef4bd23be59ae319afd95.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a1723810ad4ef4bd23be59ae319afd95.setIcon(icon_3e832db6686986d6e079f992905fa869);
+            
+    
+            var marker_754690e421a84063618929c9b0449ee0 = L.marker(
+                [-23.53637, -46.5471762],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_9f8ef65ea158fa1569b8543e52b9822f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b7203bb1a432c0da096ef18536fce812 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9cec689c2427105b8bd0f50888079d6 = $(`<div id="html_b9cec689c2427105b8bd0f50888079d6" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> VILA ARICANDUVA<br><b>Data:</b> 01/01/2024<br><b>Hora:</b> 04:00:00</div>`)[0];
+                popup_b7203bb1a432c0da096ef18536fce812.setContent(html_b9cec689c2427105b8bd0f50888079d6);
+            
+        
+
+        marker_754690e421a84063618929c9b0449ee0.bindPopup(popup_b7203bb1a432c0da096ef18536fce812)
+        ;
+
+        
+    
+    
+            marker_754690e421a84063618929c9b0449ee0.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_754690e421a84063618929c9b0449ee0.setIcon(icon_9f8ef65ea158fa1569b8543e52b9822f);
+            
+    
+            var marker_6f9dc4debcb3317c126399a213be8acc = L.marker(
+                [-23.53637, -46.5471762],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_8006229d0a9856d56d4f114954934691 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4669ef4734be7248b7e0d11e71074299 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af44cdb95a6084ffbf8bf264e9e3bcdc = $(`<div id="html_af44cdb95a6084ffbf8bf264e9e3bcdc" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> VILA ARICANDUVA<br><b>Data:</b> 01/01/2024<br><b>Hora:</b> 04:00:00</div>`)[0];
+                popup_4669ef4734be7248b7e0d11e71074299.setContent(html_af44cdb95a6084ffbf8bf264e9e3bcdc);
+            
+        
+
+        marker_6f9dc4debcb3317c126399a213be8acc.bindPopup(popup_4669ef4734be7248b7e0d11e71074299)
+        ;
+
+        
+    
+    
+            marker_6f9dc4debcb3317c126399a213be8acc.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f9dc4debcb3317c126399a213be8acc.setIcon(icon_8006229d0a9856d56d4f114954934691);
+            
+    
+            var marker_3885ff8c177298d70e28c6b018d187ef = L.marker(
+                [-23.512963838, -46.408838638],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_00e673dfd193558d3d0f8bd0aab9f79e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c40f6bb73531bd606b4a6b43877b709a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd3e9a98814faa642926f767f58aa719 = $(`<div id="html_bd3e9a98814faa642926f767f58aa719" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> VILA CURUCA<br><b>Data:</b> 01/01/2024<br><b>Hora:</b> 03:40:00</div>`)[0];
+                popup_c40f6bb73531bd606b4a6b43877b709a.setContent(html_bd3e9a98814faa642926f767f58aa719);
+            
+        
+
+        marker_3885ff8c177298d70e28c6b018d187ef.bindPopup(popup_c40f6bb73531bd606b4a6b43877b709a)
+        ;
+
+        
+    
+    
+            marker_3885ff8c177298d70e28c6b018d187ef.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3885ff8c177298d70e28c6b018d187ef.setIcon(icon_00e673dfd193558d3d0f8bd0aab9f79e);
+            
+    
+            var marker_a34e87e61c5c77ec9744188ab0de90b1 = L.marker(
+                [-23.512963838, -46.408838638],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_6ca20437f1c00846cc397de6a942880e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6635e18413c841a4a597fe0d630ad13d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a51818a31c731d13542ea1c77eadf72a = $(`<div id="html_a51818a31c731d13542ea1c77eadf72a" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> VILA CURUCA<br><b>Data:</b> 01/01/2024<br><b>Hora:</b> 03:40:00</div>`)[0];
+                popup_6635e18413c841a4a597fe0d630ad13d.setContent(html_a51818a31c731d13542ea1c77eadf72a);
+            
+        
+
+        marker_a34e87e61c5c77ec9744188ab0de90b1.bindPopup(popup_6635e18413c841a4a597fe0d630ad13d)
+        ;
+
+        
+    
+    
+            marker_a34e87e61c5c77ec9744188ab0de90b1.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a34e87e61c5c77ec9744188ab0de90b1.setIcon(icon_6ca20437f1c00846cc397de6a942880e);
+            
+    
+            var marker_2c09368bba9825b66fe59411b1dc19f3 = L.marker(
+                [-23.8273183, -46.7218445],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_cc83361c8f738bb7c13b0158322ce4f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dcb0780ad28e72f944e5487253168bed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a846b0dfbb54a5a407a11bde8c80db9 = $(`<div id="html_1a846b0dfbb54a5a407a11bde8c80db9" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> JARDIM NOVO PARELHEIROS<br><b>Data:</b> 01/01/2024<br><b>Hora:</b> 00:00:00</div>`)[0];
+                popup_dcb0780ad28e72f944e5487253168bed.setContent(html_1a846b0dfbb54a5a407a11bde8c80db9);
+            
+        
+
+        marker_2c09368bba9825b66fe59411b1dc19f3.bindPopup(popup_dcb0780ad28e72f944e5487253168bed)
+        ;
+
+        
+    
+    
+            marker_2c09368bba9825b66fe59411b1dc19f3.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2c09368bba9825b66fe59411b1dc19f3.setIcon(icon_cc83361c8f738bb7c13b0158322ce4f4);
+            
+    
+            var marker_c231972138f2e73bc8968339c33f0de4 = L.marker(
+                [-23.504256503, -46.370159445],
+                {
+}
+            ).addTo(map_a5bd0c5d315dcaea0668cf9a6701fd11);
+        
+    
+            var icon_99838d89753235a60b5afbd4e19e806c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3bf7678d2e3b0634f7b0466a9aa08a7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_496dc4864f1a2d39a24f8ead62976300 = $(`<div id="html_496dc4864f1a2d39a24f8ead62976300" style="width: 100.0%; height: 100.0%;"><b>Bairro:</b> ITAIM PAULISTA<br><b>Data:</b> 01/01/2024<br><b>Hora:</b> 01:00:00</div>`)[0];
+                popup_3bf7678d2e3b0634f7b0466a9aa08a7d.setContent(html_496dc4864f1a2d39a24f8ead62976300);
+            
+        
+
+        marker_c231972138f2e73bc8968339c33f0de4.bindPopup(popup_3bf7678d2e3b0634f7b0466a9aa08a7d)
+        ;
+
+        
+    
+    
+            marker_c231972138f2e73bc8968339c33f0de4.bindTooltip(
+                `<div>
+                     Clique para mais detalhes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c231972138f2e73bc8968339c33f0de4.setIcon(icon_99838d89753235a60b5afbd4e19e806c);
+            
+</script>
+</html>
