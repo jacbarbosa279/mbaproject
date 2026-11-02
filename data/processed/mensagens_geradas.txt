@@ -1,17 +1,7 @@
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro LAJEADO, em 05/01/2024 às 00:05:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro LAJEADO, em 05/01/2024 às 00:05:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.081, 'neu': 0.919, 'pos': 0.0, 'compound': -0.296}
----
-Post de policiamento:
-Informação para a comunidade do bairro LAJEADO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
----
-Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
----
-Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro LAJEADO, em 05/01/2024 às 00:05:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
----
-Sentimento do post de roubo: {'neg': 0.081, 'neu': 0.919, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.109, 'neu': 0.891, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro LAJEADO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -19,9 +9,19 @@ Informação para a comunidade do bairro LAJEADO: acompanhe os canais oficiais p
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro JARDIM ARICANDUVA, em 05/01/2024 às 23:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro LAJEADO, em 05/01/2024 às 00:05:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.109, 'neu': 0.891, 'pos': 0.0, 'compound': -0.296}
+---
+Post de policiamento:
+Informação para a comunidade do bairro LAJEADO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
+---
+Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+---
+Post de roubo:
+Alerta: foi registrado um roubo de veículo de Automovel no bairro JARDIM ARICANDUVA, em 05/01/2024 às 23:00:00. Redobre a atenção. #Segurança
+---
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro JARDIM ARICANDUVA: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -29,9 +29,9 @@ Informação para a comunidade do bairro JARDIM ARICANDUVA: acompanhe os canais 
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro JARDIM ARICANDUVA, em 05/01/2024 às 23:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro JARDIM ARICANDUVA, em 05/01/2024 às 23:00:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro JARDIM ARICANDUVA: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -39,19 +39,9 @@ Informação para a comunidade do bairro JARDIM ARICANDUVA: acompanhe os canais 
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro CASA VERDE, em 05/01/2024 às 22:50:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro CASA VERDE, em 05/01/2024 às 22:50:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
----
-Post de policiamento:
-Informação para a comunidade do bairro CASA VERDE: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
----
-Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
----
-Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro CASA VERDE, em 05/01/2024 às 22:50:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
----
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro CASA VERDE: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -59,9 +49,19 @@ Informação para a comunidade do bairro CASA VERDE: acompanhe os canais oficiai
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro CIDADE ADEMAR, em 05/01/2024 às 19:55:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro CASA VERDE, em 05/01/2024 às 22:50:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
+---
+Post de policiamento:
+Informação para a comunidade do bairro CASA VERDE: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
+---
+Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+---
+Post de roubo:
+Alerta: foi registrado um roubo de veículo de Automovel no bairro CIDADE ADEMAR, em 05/01/2024 às 19:55:00. Redobre a atenção. #Segurança
+---
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro CIDADE ADEMAR: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -69,9 +69,9 @@ Informação para a comunidade do bairro CIDADE ADEMAR: acompanhe os canais ofic
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro CIDADE ADEMAR, em 05/01/2024 às 19:55:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro CIDADE ADEMAR, em 05/01/2024 às 19:55:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro CIDADE ADEMAR: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -79,19 +79,9 @@ Informação para a comunidade do bairro CIDADE ADEMAR: acompanhe os canais ofic
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro JOSE BONIFACIO, em 05/01/2024 às 22:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro JOSE BONIFACIO, em 05/01/2024 às 22:00:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
----
-Post de policiamento:
-Informação para a comunidade do bairro JOSE BONIFACIO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
----
-Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
----
-Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro JOSE BONIFACIO, em 05/01/2024 às 22:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
----
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro JOSE BONIFACIO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -99,9 +89,19 @@ Informação para a comunidade do bairro JOSE BONIFACIO: acompanhe os canais ofi
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro FREGUESIA DO O, em 04/01/2024 às 07:20:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro JOSE BONIFACIO, em 05/01/2024 às 22:00:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.075, 'neu': 0.925, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
+---
+Post de policiamento:
+Informação para a comunidade do bairro JOSE BONIFACIO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
+---
+Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+---
+Post de roubo:
+Alerta: foi registrado um roubo de veículo de Automovel no bairro FREGUESIA DO O, em 04/01/2024 às 07:20:00. Redobre a atenção. #Segurança
+---
+Sentimento do post de roubo: {'neg': 0.099, 'neu': 0.901, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro FREGUESIA DO O: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -109,9 +109,9 @@ Informação para a comunidade do bairro FREGUESIA DO O: acompanhe os canais ofi
 Sentimento do post de policiamento: {'neg': 0.075, 'neu': 0.925, 'pos': 0.0, 'compound': -0.2342}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro FREGUESIA DO O, em 04/01/2024 às 07:20:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro FREGUESIA DO O, em 04/01/2024 às 07:20:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.075, 'neu': 0.925, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.099, 'neu': 0.901, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro FREGUESIA DO O: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -119,19 +119,9 @@ Informação para a comunidade do bairro FREGUESIA DO O: acompanhe os canais ofi
 Sentimento do post de policiamento: {'neg': 0.075, 'neu': 0.925, 'pos': 0.0, 'compound': -0.2342}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA DO CASTELO, em 04/01/2024 às 15:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA DO CASTELO, em 04/01/2024 às 15:00:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.075, 'neu': 0.925, 'pos': 0.0, 'compound': -0.296}
----
-Post de policiamento:
-Informação para a comunidade do bairro VILA DO CASTELO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
----
-Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
----
-Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA DO CASTELO, em 04/01/2024 às 15:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
----
-Sentimento do post de roubo: {'neg': 0.075, 'neu': 0.925, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.099, 'neu': 0.901, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro VILA DO CASTELO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -139,9 +129,19 @@ Informação para a comunidade do bairro VILA DO CASTELO: acompanhe os canais of
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro SAO LUCAS, em 04/01/2024 às 21:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA DO CASTELO, em 04/01/2024 às 15:00:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.099, 'neu': 0.901, 'pos': 0.0, 'compound': -0.296}
+---
+Post de policiamento:
+Informação para a comunidade do bairro VILA DO CASTELO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
+---
+Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+---
+Post de roubo:
+Alerta: foi registrado um roubo de veículo de Automovel no bairro SAO LUCAS, em 04/01/2024 às 21:00:00. Redobre a atenção. #Segurança
+---
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro SAO LUCAS: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -149,9 +149,9 @@ Informação para a comunidade do bairro SAO LUCAS: acompanhe os canais oficiais
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro SAO LUCAS, em 04/01/2024 às 21:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro SAO LUCAS, em 04/01/2024 às 21:00:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro SAO LUCAS: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -159,19 +159,9 @@ Informação para a comunidade do bairro SAO LUCAS: acompanhe os canais oficiais
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro IPIRANGA, em 04/01/2024 às 20:20:28. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro IPIRANGA, em 04/01/2024 às 20:20:28. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.081, 'neu': 0.919, 'pos': 0.0, 'compound': -0.296}
----
-Post de policiamento:
-Informação para a comunidade do bairro IPIRANGA: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
----
-Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
----
-Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro IPIRANGA, em 04/01/2024 às 20:20:28. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
----
-Sentimento do post de roubo: {'neg': 0.081, 'neu': 0.919, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.109, 'neu': 0.891, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro IPIRANGA: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -179,9 +169,19 @@ Informação para a comunidade do bairro IPIRANGA: acompanhe os canais oficiais 
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro IGUATEMI, em 04/01/2024 às 22:30:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro IPIRANGA, em 04/01/2024 às 20:20:28. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.081, 'neu': 0.919, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.109, 'neu': 0.891, 'pos': 0.0, 'compound': -0.296}
+---
+Post de policiamento:
+Informação para a comunidade do bairro IPIRANGA: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
+---
+Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+---
+Post de roubo:
+Alerta: foi registrado um roubo de veículo de Automovel no bairro IGUATEMI, em 04/01/2024 às 22:30:00. Redobre a atenção. #Segurança
+---
+Sentimento do post de roubo: {'neg': 0.109, 'neu': 0.891, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro IGUATEMI: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -189,9 +189,9 @@ Informação para a comunidade do bairro IGUATEMI: acompanhe os canais oficiais 
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro IGUATEMI, em 04/01/2024 às 22:30:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro IGUATEMI, em 04/01/2024 às 22:30:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.081, 'neu': 0.919, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.109, 'neu': 0.891, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro IGUATEMI: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -199,9 +199,9 @@ Informação para a comunidade do bairro IGUATEMI: acompanhe os canais oficiais 
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro PARQUE GUARANI, em 04/01/2024 às 22:14:34. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro PARQUE GUARANI, em 04/01/2024 às 22:14:34. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro PARQUE GUARANI: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -209,19 +209,9 @@ Informação para a comunidade do bairro PARQUE GUARANI: acompanhe os canais ofi
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro SANTO AMARO, em 03/01/2024 às 11:11:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro SANTO AMARO, em 03/01/2024 às 11:11:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
----
-Post de policiamento:
-Informação para a comunidade do bairro SANTO AMARO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
----
-Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
----
-Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro SANTO AMARO, em 03/01/2024 às 11:11:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
----
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro SANTO AMARO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -229,9 +219,19 @@ Informação para a comunidade do bairro SANTO AMARO: acompanhe os canais oficia
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA ARICANDUVA, em 01/01/2024 às 04:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro SANTO AMARO, em 03/01/2024 às 11:11:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
+---
+Post de policiamento:
+Informação para a comunidade do bairro SANTO AMARO: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
+---
+Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+---
+Post de roubo:
+Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA ARICANDUVA, em 01/01/2024 às 04:00:00. Redobre a atenção. #Segurança
+---
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro VILA ARICANDUVA: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -239,9 +239,9 @@ Informação para a comunidade do bairro VILA ARICANDUVA: acompanhe os canais of
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA ARICANDUVA, em 01/01/2024 às 04:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA ARICANDUVA, em 01/01/2024 às 04:00:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro VILA ARICANDUVA: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -249,19 +249,9 @@ Informação para a comunidade do bairro VILA ARICANDUVA: acompanhe os canais of
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA CURUCA, em 01/01/2024 às 03:40:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA CURUCA, em 01/01/2024 às 03:40:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
----
-Post de policiamento:
-Informação para a comunidade do bairro VILA CURUCA: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
----
-Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
----
-Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA CURUCA, em 01/01/2024 às 03:40:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
----
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro VILA CURUCA: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -269,9 +259,19 @@ Informação para a comunidade do bairro VILA CURUCA: acompanhe os canais oficia
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro JARDIM NOVO PARELHEIROS, em 01/01/2024 às 00:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro VILA CURUCA, em 01/01/2024 às 03:40:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.075, 'neu': 0.925, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
+---
+Post de policiamento:
+Informação para a comunidade do bairro VILA CURUCA: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
+---
+Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+---
+Post de roubo:
+Alerta: foi registrado um roubo de veículo de Automovel no bairro JARDIM NOVO PARELHEIROS, em 01/01/2024 às 00:00:00. Redobre a atenção. #Segurança
+---
+Sentimento do post de roubo: {'neg': 0.099, 'neu': 0.901, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro JARDIM NOVO PARELHEIROS: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
@@ -279,9 +279,9 @@ Informação para a comunidade do bairro JARDIM NOVO PARELHEIROS: acompanhe os c
 Sentimento do post de policiamento: {'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
 ---
 Post de roubo:
-Alerta: foi registrado um roubo de veículo de Automovel no bairro ITAIM PAULISTA, em 01/01/2024 às 01:00:00. Redobre a atenção e acompanhe os avisos dos canais oficiais. #Segurança #SãoPaulo
+Alerta: foi registrado um roubo de veículo de Automovel no bairro ITAIM PAULISTA, em 01/01/2024 às 01:00:00. Redobre a atenção. #Segurança
 ---
-Sentimento do post de roubo: {'neg': 0.078, 'neu': 0.922, 'pos': 0.0, 'compound': -0.296}
+Sentimento do post de roubo: {'neg': 0.104, 'neu': 0.896, 'pos': 0.0, 'compound': -0.296}
 ---
 Post de policiamento:
 Informação para a comunidade do bairro ITAIM PAULISTA: acompanhe os canais oficiais para atualizações sobre segurança e procure os serviços de emergência quando necessário. #Segurança #Comunidade
