@@ -59,3 +59,74 @@ spreadsheet must be present at `data/raw/VeiculosSubtraidos_2024.xlsx`.
 - `data/processed/mensagens_geradas.txt` — generated messages and sentiment scores.
 
 The `src/` modules use these same output locations by default.
+
+## Solution Architecture
+
+The following diagram illustrates the data flow and components of the analysis and alert generation script:
+
+```mermaid
+flowchart TD
+    subgraph Input ["Entrada de Dados"]
+        Excel["data/raw/VeiculosSubtraidos_2024.xlsx"]
+    end
+
+    subgraph Config ["Autenticação & Provedores"]
+        ENV{"OPENROUTER_API_KEY /<br/>OPENAI_API_KEY"}
+        OpenRouter["API OpenRouter<br/>(LLM: Gemma 4 / Llama)"]
+        Fallback["Gerador Local<br/>(Fallback offline)"]
+    end
+
+    subgraph Processing ["Processamento & Análise"]
+        Iterate["Iteração Linha a Linha<br/>(Pandas DataFrame)"]
+        Geocoding["Extração de Coordenadas<br/>(Lat/Long, Bairro, Data/Hora)"]
+        
+        GenPostRoubo["Geração de Alerta de Roubo"]
+        NLTK1["NLTK VADER<br/>(Análise de Sentimento #1)"]
+        
+        PromptLogic{"Score Compound < 0?"}
+        PromptPositivo["Prompt: Elogio/Policiamento"]
+        PromptNeutro["Prompt: Presença Policial"]
+        
+        GenPostPolicia["Geração de Mensagem Policial"]
+        NLTK2["NLTK VADER<br/>(Análise de Sentimento #2)"]
+    end
+
+    subgraph Output ["Artefatos Gerados"]
+        TXT["data/processed/mensagens_geradas.txt<br/>(Posts + Sentimentos)"]
+        Mapa["output/mapa_crimes.html<br/>(Folium Map / Markers)"]
+        Grafico["output/grafico_sentimentos.html<br/>(Matplotlib / Base64 HTML)"]
+    end
+
+    %% Relações de Entrada
+    Excel --> Iterate
+
+    %% Relações de Configuração/LLM
+    ENV -- Presente --> OpenRouter
+    ENV -- Ausente / Erro --> Fallback
+    
+    OpenRouter --> GenPostRoubo
+    Fallback --> GenPostRoubo
+    
+    OpenRouter --> GenPostPolicia
+    Fallback --> GenPostPolicia
+
+    %% Fluxo Principal
+    Iterate --> Geocoding
+    Geocoding --> Mapa
+    Iterate --> GenPostRoubo
+    
+    GenPostRoubo --> NLTK1
+    NLTK1 --> PromptLogic
+    
+    PromptLogic -- Sim --> PromptPositivo
+    PromptLogic -- Não --> PromptNeutro
+    
+    PromptPositivo --> GenPostPolicia
+    PromptNeutro --> GenPostPolicia
+    
+    GenPostPolicia --> NLTK2
+    
+    %% Gravação e Saída
+    NLTK1 --> TXT
+    NLTK2 --> TXT
+    NLTK1 & NLTK2 --> Grafico
