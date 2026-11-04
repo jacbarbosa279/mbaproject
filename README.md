@@ -52,10 +52,27 @@ python main_script_app_sentimento.py
 The script downloads the NLTK `vader_lexicon` resource if needed. The input
 spreadsheet must be present at `data/raw/VeiculosSubtraidos_2024.xlsx`.
 
+### Running with Docker
+
+Build and run the image from the repository root. The bind mounts keep generated
+files on the host:
+
+```powershell
+docker build -t analise-sentimentos .
+docker run --rm `
+  -v "${PWD}/output:/app/output" `
+  -v "${PWD}/data/processed:/app/data/processed" `
+  analise-sentimentos
+```
+
+Set `OPENROUTER_API_KEY` in the container environment to enable API generation;
+without it, the script uses local fallback messages.
+
 ## Generated files
 
-- `output/grafico_sentimentos.html` — sentiment chart with an embedded image.
-- `output/mapa_crimes.html` — interactive map with crime markers.
+- `output/grafico_sentimentos.html` — generated sentiment chart with an embedded image.
+- `output/mapa_crimes.html` — generated interactive map with crime markers.
 - `data/processed/mensagens_geradas.txt` — generated messages and sentiment scores.
 
-The `src/` modules use these same output locations by default.
+Generated HTML files are not tracked in Git. The `src/` modules use these same
+output locations by default.
