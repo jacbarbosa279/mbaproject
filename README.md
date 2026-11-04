@@ -24,6 +24,33 @@ The `src/` package contains reusable modules for data loading and validation,
 message generation, VADER analysis, and visualization. The main script remains the
 executable entry point.
 
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Input dataset<br/>data/raw/VeiculosSubtraidos_2024.xlsx] --> B[data_loader.py<br/>load_and_validate_data]
+    B --> C[main_script_app_sentimento.py<br/>orchestrator]
+
+    C --> D[LLM generator<br/>src/llm_generator.py]
+    C --> E[Sentiment analysis<br/>src/sentiment_analysis.py]
+    C --> F[Visualization layer<br/>src/visualization.py]
+
+    D --> G[Crime alert posts<br/>and positive policing posts]
+    E --> H[VADER compound scores]
+    F --> I[Interactive map + sentiment chart]
+
+    G --> J[data/processed/mensagens_geradas.txt]
+    H --> K[output/grafico_sentimentos.html]
+    I --> L[output/mapa_crimes.html]
+
+    D -. fallback .-> G
+    E -. if API unavailable .-> G
+```
+
+The project follows a small ETL-style pipeline: the dataset is validated and loaded,
+then each incident is transformed into social posts, scored with VADER, and
+visualized in the final outputs.
+
 ## Language model
 
 When an API key is configured, messages are generated through OpenRouter using
