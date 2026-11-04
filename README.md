@@ -74,5 +74,4 @@ without it, the script uses local fallback messages.
 - `output/mapa_crimes.html` — generated interactive map with crime markers.
 - `data/processed/mensagens_geradas.txt` — generated messages and sentiment scores.
 
-Generated HTML files are not tracked in Git. The `src/` modules use these same
-output locations by default.
+The `src/` modules use these same output locations by default.
