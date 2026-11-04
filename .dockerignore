@@ -1,0 +1,6 @@
+.git
+__pycache__
+**/__pycache__
+output/*
+!output/.gitkeep
+data/processed/*

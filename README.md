@@ -52,81 +52,26 @@ python main_script_app_sentimento.py
 The script downloads the NLTK `vader_lexicon` resource if needed. The input
 spreadsheet must be present at `data/raw/VeiculosSubtraidos_2024.xlsx`.
 
+### Running with Docker
+
+Build and run the image from the repository root. The bind mounts keep generated
+files on the host:
+
+```powershell
+docker build -t analise-sentimentos .
+docker run --rm `
+  -v "${PWD}/output:/app/output" `
+  -v "${PWD}/data/processed:/app/data/processed" `
+  analise-sentimentos
+```
+
+Set `OPENROUTER_API_KEY` in the container environment to enable API generation;
+without it, the script uses local fallback messages.
+
 ## Generated files
 
-- `output/grafico_sentimentos.html` — sentiment chart with an embedded image.
-- `output/mapa_crimes.html` — interactive map with crime markers.
+- `output/grafico_sentimentos.html` — generated sentiment chart with an embedded image.
+- `output/mapa_crimes.html` — generated interactive map with crime markers.
 - `data/processed/mensagens_geradas.txt` — generated messages and sentiment scores.
 
 The `src/` modules use these same output locations by default.
-
-## Solution Architecture
-
-The following diagram illustrates the data flow and components of the analysis and alert generation script:
-
-```mermaid
-flowchart TD
-    subgraph Input ["Data Input"]
-        Excel["data/raw/VeiculosSubtraidos_2024.xlsx"]
-    end
-
-    subgraph Config ["Authentication & Providers"]
-        ENV{"OPENROUTER_API_KEY /<br/>OPENAI_API_KEY"}
-        OpenRouter["OpenRouter API<br/>(LLM: Gemma 4 / Llama)"]
-        Fallback["Local Generator<br/>(Offline Fallback)"]
-    end
-
-    subgraph Processing ["Processing & Analysis"]
-        Iterate["Line-by-Line Iteration<br/>(Pandas DataFrame)"]
-        Geocoding["Coordinates Extraction<br/>(Lat/Long, Neighborhood, Date/Time)"]
-        
-        GenPostRoubo["Robbery Alert Generation"]
-        NLTK1["NLTK VADER<br/>(Sentiment Analysis #1)"]
-        
-        PromptLogic{"Compound Score < 0?"}
-        PromptPositivo["Prompt: Praise/Policing"]
-        PromptNeutro["Prompt: Police Presence"]
-        
-        GenPostPolicia["Police Message Generation"]
-        NLTK2["NLTK VADER<br/>(Sentiment Analysis #2)"]
-    end
-
-    subgraph Output ["Generated Artifacts"]
-        TXT["data/processed/mensagens_geradas.txt<br/>(Posts + Sentiments)"]
-        Mapa["output/mapa_crimes.html<br/>(Folium Map / Markers)"]
-        Grafico["output/grafico_sentimentos.html<br/>(Matplotlib / Base64 HTML)"]
-    end
-
-    %% Input Relations
-    Excel --> Iterate
-
-    %% Config/LLM Relations
-    ENV -- Present --> OpenRouter
-    ENV -- Missing / Error --> Fallback
-    
-    OpenRouter --> GenPostRoubo
-    Fallback --> GenPostRoubo
-    
-    OpenRouter --> GenPostPolicia
-    Fallback --> GenPostPolicia
-
-    %% Main Flow
-    Iterate --> Geocoding
-    Geocoding --> Mapa
-    Iterate --> GenPostRoubo
-    
-    GenPostRoubo --> NLTK1
-    NLTK1 --> PromptLogic
-    
-    PromptLogic -- Yes --> PromptPositivo
-    PromptLogic -- No --> PromptNeutro
-    
-    PromptPositivo --> GenPostPolicia
-    PromptNeutro --> GenPostPolicia
-    
-    GenPostPolicia --> NLTK2
-    
-    %% Gravação e Saída
-    NLTK1 --> TXT
-    NLTK2 --> TXT
-    NLTK1 & NLTK2 --> Grafico
