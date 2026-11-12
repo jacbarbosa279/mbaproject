@@ -7,11 +7,15 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
+LABEL org.opencontainers.image.title="mbaproject" \
+      org.opencontainers.image.url="https://hub.docker.com/r/jacquevalenti/mbaproject"
+
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt \
     && python -m nltk.downloader -d "$NLTK_DATA" vader_lexicon
 
 COPY main_script_app_sentimento.py .
+COPY src/ ./src/
 COPY data/raw/ ./data/raw/
 
 RUN mkdir -p output data/processed
