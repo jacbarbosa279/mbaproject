@@ -81,15 +81,23 @@ spreadsheet must be present at `data/raw/VeiculosSubtraidos_2024.xlsx`.
 
 ### Running with Docker
 
-Build and run the image from the repository root. The bind mounts keep generated
+Build and run the image from the repository root. The image is tagged for the
+Docker Hub repository `jacquevalenti/mbaproject`. The bind mounts keep generated
 files on the host:
 
 ```powershell
-docker build -t analise-sentimentos .
+docker build -t jacquevalenti/mbaproject:latest .
 docker run --rm `
   -v "${PWD}/output:/app/output" `
   -v "${PWD}/data/processed:/app/data/processed" `
-  analise-sentimentos
+  jacquevalenti/mbaproject:latest
+```
+
+To publish the image, sign in to Docker Hub and push the tag:
+
+```powershell
+docker login
+docker push jacquevalenti/mbaproject:latest
 ```
 
 Set `OPENROUTER_API_KEY` in the container environment to enable API generation;
